@@ -1,6 +1,7 @@
 import useUser from "./store/userStore";
 
-const App = props => {
+function App () {
+  const {firstName, lastName, age} = useUser();
   return (
     <div>
       
