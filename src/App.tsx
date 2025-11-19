@@ -4,13 +4,10 @@ function App () {
   const {firstName, lastName, age} = useUser();
   return (
     <div>
-      
+      <h1></h1>
     </div>
   );
 };
 
-App.propTypes = {
-  
-};
 
 export default App;
